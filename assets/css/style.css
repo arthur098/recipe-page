@@ -11,6 +11,7 @@
   --wenge-brown: hsl(30, 10%, 34%);
   --dark-charcoal: hsl(24, 5%, 18%);
   --black: black;
+  --white: white;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -19,6 +20,10 @@
 
 body {
   margin: 0;
+}
+
+img {
+  width: 100%;
 }
 
 h1, h2 {
@@ -121,4 +126,25 @@ p {
 .nutrition-info-numbers {
   color: var(--primary-color);
   font-weight: bold !important;
+}
+
+@media screen and (min-width: 767px) {
+
+  .recipe-background {
+    background-color: var(--eggshell);
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+  }
+
+  .card {
+    background-color: var(--white);
+    max-width: 700px;
+    border-radius: 15px;
+    padding: 30px;
+  }
+
+  img {
+    border-radius: 10px;
+  }
 }

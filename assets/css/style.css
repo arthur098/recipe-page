@@ -114,7 +114,7 @@ p {
 }
 
 .recipe-table tr {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--light-grey);
   border-spacing: 0;
 }
 
@@ -134,7 +134,7 @@ p {
     background-color: var(--eggshell);
     display: flex;
     justify-content: center;
-    padding: 80px 0;
+    padding: 100px 0;
   }
 
   .card {
